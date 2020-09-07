@@ -47,23 +47,32 @@
 	\section{Tipos de memoria de computador} \label{contenido}
 	Antes de leer mas a fondo sobre el tema conocía levemente las memorias cache, RAM, ROM, Memoria Virtual y el disco duro
 	\subsection{Memoria Cache}
-	Esta memoria es la mas veloz y la que menos capacidad tiene, también es la memoria encargada de las funciones y las ordenes del computador y sus componentes, la cual se divide en tres memorias (L1,L2,L3), con diferentes capacidades de velocidad y almacenamiento, L1 es la de mayor velocidad pero de menor capacidad, L2 es intermedio entre ambas y L3 es la de mayor capacidad de almacenamiento pero menor velocidad.
+	Esta memoria es la mas veloz y la que menos capacidad tiene, también es la memoria encargada de las funciones y las ordenes del computador y sus componentes, la cual se divide en tres memorias con diferentes capacidades de velocidad y almacenamiento  (L1,L2,L3).
+	\begin{itemize}
+		\item{L1(Level1-Nivel1) este nivel se encuentra en los núcleos de microprocesador y también el mas veloz pero de menor capacidad.}
+		\item{L2(Level2-Nivel2) este nivel es menos veloz que la L1 y mas que la L3, y en capacidad de almacenamiento es menor que la L3 y mayor que la L1. Esta memoria se puede encontrar en uno de dos lugares, en la placa madre o en el microprocesador.}
+		\item {L3(Level3-Nivel3) este nivel es el mas lento de los tres pero sigue siendo uno de los mas veloces comparado con las siguientes memorias.}
+	\end{itemize}
 	
 	\subsection{Memoria RAM}
 	La Memoria RAM es la memoria mas importante ya que en esta se guardan los programas mas importantes después de que se inicia, además esta es la que guarda el Sistema Operativo
 	
 	\subsection{Memoria ROM}
-	Es una memoria de solo lectura la cual almacena los datos,programas y funciones para el buen funcionamiento del computador
+	Es una memoria de solo lectura la cual almacena los datos,programas y funciones para el buen funcionamiento del computador.\cite{rom}
 	
 	\subsection{Disco Duro}
-	Esta memoria es la que mayor capacidad tiene frente a las otras relacionadas con el computador, en esta se guardan la mayoría de datos de el computador además también 
+	Esta memoria es la que mayor capacidad tiene frente a las otras relacionadas con el computador, en esta se guardan la mayoría de datos de el computador como programas, archivos documentos, etc. existen dos tipos de disco duro, mecánicos y en estado solido, siendo este ultimo el mas velos por su composición y funcionamiento.
 	
 	\subsection{Memoria Virtual}
-	esta ubicada en una parte del disco duro y se usa para liberar espacio de la RAM o para guardar en caso de que la RAM este muy congestionada
+	se usa para liberar espacio de la RAM o para guardar en caso de que la RAM este llena, esta usa espacio del disco duro para ampliarse
 	
 	\section{Gestión de las memorias del computador}
+	La gestión de las memorias se hace mediante un controlador de memoria que se encarga de comunicarse con el microprocesador, además este también es el que se encarga de buscar el tipo de memoria que necesita y que función va a realizar en ella.
+	este controlador se puede encontrar en uno de estos dos posibles lugares, ubicado dentro del microprocesador o en un chip llamado MCH ubicado en la placa madre.\cite{memoria}
 	
 	\section{Velocidad de la memoria}
+	La velocidad de la memoria depende mucho de varios factores
+	
 	
 	\bibliographystyle{IEEEtran}
 	\bibliography{references}
